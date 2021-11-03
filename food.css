@@ -173,7 +173,7 @@ section{
     border-radius: 10px;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: #000000a2;
     opacity: 0;
     transition: ease 1s;
 }

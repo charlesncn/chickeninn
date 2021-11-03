@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: ease 1s;
+}
+body{
+    background: #ffffff;
+    max-height: 100vh;
+    width: 100%;
+    background: url('img/bg.jpg') no-repeat;
+    background-size: cover;
+}
+section{
+    height: 100vh;
+    background: #000000bd;
+}
+.container{
+    display: flex;
+}
+.cardContent{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    right: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cardContent h1 span{
+    color: orangered;
+}
+.cardContent h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.cardContent h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.bottomNav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardContent .intro{
+    font-size: 40px;
+    font-weight: 200;
+    margin: 120px 0 0 40px;
+}
+.cardContent a span{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 60px;
+    margin: 240px 0 0 40px;
+    background: orangered;
+    border-radius: 20px;
+    
+}
+.cardContent .text a:hover span{
+    background: #ffffff;
+    color: orangered;
+}
+.bottomNav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+.bottomNav ul li,
+.bottomNav ul li .fa{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.bottomNav ul li a:hover,
+.bottomNav ul li .fa:hover{
+    color: orangered;
+}
