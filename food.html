@@ -9,6 +9,7 @@
     <link rel = "icon" href ="img/slogo.png" type = "image/x-icon">
     <title>ChickenINN Order</title>
 
+    <script src="cart.js"async></script>
     <script src="main.js">async</script>
 </head>
 <body>
@@ -52,23 +53,24 @@
                     </ul>
                 </div>
 
+<!-- cards -->
                 <div class="cardHolder">
 
-<!-- cards -->
+                    
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/buger.jpg" alt="">
+                                <img class="dishImg" src="img/buger.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Burger</h2>
+                            <h2 class="dishName">Burger</h2>
                             <span>
-                                <p class="text">Burger with no cheese</p>
-                                <p class="price">Ksh 200</p>
+                                <p class="text">Chicken Burger</p>
+                                <p class="price">Ksh 450</p>
                             </span>
                         </div>
                     </div>
@@ -79,14 +81,14 @@
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/wings.jpg" alt="">
+                                <img class="dishImg" src="img/wings.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Wings</h2>
+                            <h2 class="dishName">Wings</h2>
                             <span>
                                 <p class="text">Four Wings</p>
                                 <p class="price">Ksh 450</p>
@@ -96,14 +98,14 @@
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/fries.jpg" alt="">
+                                <img class="dishImg" src="img/fries.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Fries</h2>
+                            <h2 class="dishName">Fries</h2>
                             <span>
                                 <p class="text">French Fries</p>
                                 <p class="price">Ksh 250</p>
@@ -113,48 +115,50 @@
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/Fried-Chicken_2-SQ.jpg" alt="">
+                                <img class="dishImg" src="img/Fried-Chicken_2-SQ.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Fried Chicken</h2>
+                            <h2 class="dishName">Fried Chicken</h2>
                             <span>
                                 <p class="text">Spicy Fried-Chicken</p>
                                 <p class="price">Ksh 1200</p>
                             </span>
                         </div>
                     </div>
+
+                    
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/Coleslaw.jpg" alt="">
+                                <img class="dishImg" src="img/Coleslaw.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Coleslaw</h2>
+                            <h2 class="dishName">Coleslaw</h2>
                             <span>
-                                <p class="text">Coleslaw with Cheese</p>
-                                <p class="price">Ksh 150</p>
+                                <p class="text">Coleslaw </p>
+                                <p class="price">Ksh 250</p>
                             </span>
                         </div>
                     </div>
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/chickenBurger.jpg" alt="">
+                                <img class="dishImg" src="img/chickenBurger.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Chicken Burger</h2>
+                            <h2 class="dishName">Chicken Burger</h2>
                             <span>
                                 <p class="text">Regular</p>
                                 <p class="price">Ksh 900</p>
@@ -164,14 +168,14 @@
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/cheeseBurger.jpg" alt="">
+                                <img class="dishImg" src="img/cheeseBurger.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Cheese Burger</h2>
+                            <h2 class="dishName">Cheese Burger</h2>
                             <span>
                                 <p class="text">Burger with cheese</p>
                                 <p class="price">Ksh 750</p>
@@ -181,14 +185,14 @@
                     <div class="card">
                         <div class="content">
                             <div class="image">
-                                <img src="img/burgerfries.jpg" alt="">
+                                <img class="dishImg" src="img/burgerfries.jpg" alt="">
                             </div>
                             <div class="image overlay">
                                 <p>add to order</p>
                             </div>
                         </div>
                         <div class="desc">
-                            <h2>Burger Fries</h2>
+                            <h2 class="dishName">Burger Fries</h2>
                             <span>
                                 <p class="text">Burger with fries</p>
                                 <p class="price">Ksh 600</p>
@@ -215,7 +219,7 @@
                     </div>
                     <div class="cardContainer">
                         
-                        <div class="smallCard">
+                        <!-- <div class="smallCard">
                             <div class="avatar">
                                 <img src="img/wings.jpg" alt="">
                             </div>
@@ -227,10 +231,12 @@
                                 </form>
                             </div>
                             <div class="cost">
-                                <p>Ksh <span class="price">200</span></p><button class="btn-delete" type="button"><i class="fa fa-trash-o" aria-hidden="true"></i> <span> remove</span></button>                                    
+                                <p class="price">Ksh 200</p>
+                                <button class="btn-delete" type="button"><i class="fa fa-trash-o" aria-hidden="true"></i> <span> remove</span></button>                                    
                             </div>
-                               
-                        </div>
+                                
+                        </div> -->
+                        
                         
     
                         
@@ -238,7 +244,7 @@
                     </div>
                     
                     <div class="subtotal">
-                        <p>SubTotal</p><p>Ksh 600</p>
+                        <p>SubTotal</p><p>Ksh 0</p>
                     </div>
 
                     <div class="promo">
@@ -248,9 +254,9 @@
                         </form>
                     </div>
                     <div class="total">
-                        <p>Total</p><p>Ksh 600</p>
+                        <p>Total</p><p class="totalCost">0.00</p>
                     </div>
-                    <div class="button"><span>order</span></div>
+                    <button class="orderBtn"><span>order</span></button>
                 </div>
                 
 
@@ -260,7 +266,6 @@
     </section>
 
 
-    <script src="app.js">async</script>
-    <script src="cart.js"></script>
+    <script src="app.js" async></script>
 </body>
 </html>
