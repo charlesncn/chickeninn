@@ -418,6 +418,9 @@ section{
     header{
         align-self: flex-end;
     }
+    header form input[type=text] {
+        display: none;
+    }
     .side{
         display: none;
     }
