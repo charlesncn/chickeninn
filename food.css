@@ -380,3 +380,86 @@ section{
 .orderBtn:hover span{
     color: #000000;
 }
+
+@media screen and (max-width: 1080px) {
+    header form input[type=text] {
+        width: 300px;
+    }
+    header .logo img {
+        height: 60px;
+    }
+
+    .left{
+        width: 59%;
+    }
+    .right{
+        width: 39%;
+    }
+    .container .smallCard .avatar img {
+        width: 80px;
+    }
+    .container .smallCard .details p {
+        font-size: 14px;
+    }
+    .price, .cost .btn-delete span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .promo input[type=text] {
+        width: 120px;
+        padding-left: 10px;
+    }
+    .menuItems {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        align-self: flex-end;
+    }
+    .side{
+        display: none;
+    }
+    .main{
+        flex-flow: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .container .smallCard .avatar img {
+        width: 150px;
+    }
+    .container .smallCard .details p {
+        font-size: 18px;
+    }
+    .promo form {
+        flex-flow: column;
+    }
+
+    .promo input[type=text] {
+        width: 100%;
+    }.container .cardContainer {
+        height: 200px;
+    }
+    .promo form {
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 472px) {
+    .container .smallCard .avatar img {
+        width: 90px;
+    }
+    .container .smallCard .details p {
+        font-size: 12px;
+    }
+    .cost .btn-delete span, .cost .btn-delete .fa {
+        font-size: 12px;
+    }
+    .cost .btn-delete {
+        padding: 5px;
+    }
+}
